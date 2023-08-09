@@ -14,10 +14,7 @@ const HomeView = () => {
             return (
               <Card
                 key={index}
-                title={card.title}
-                description={card.description}
-                image={card.image}
-                subtitle={card.subtitle}
+                {...card}
               />
             )
           })
